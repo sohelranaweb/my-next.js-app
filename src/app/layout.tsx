@@ -28,11 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar></Navbar>
         <main className="min-h-dvh">{children}</main>
-        <footer className="text-2xl text-center my-5">
-          This is Fokira Footer
-        </footer>
       </body>
     </html>
   );

@@ -14,6 +14,9 @@ function Navbar() {
         <Link href="/contact" className="hover: text-gray-300">
           Contact
         </Link>
+        <Link href="/dashboard" className="hover: text-gray-300">
+          Dashboard
+        </Link>
         <Link href="/login" className="hover: text-gray-300">
           Login
         </Link>
