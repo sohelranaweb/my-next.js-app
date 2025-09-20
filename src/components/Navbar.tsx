@@ -8,6 +8,11 @@ function Navbar() {
         <Link href="/">NextJs</Link>
       </div>
       <div className="flex space-x-6">
+        <input
+          className="bg-white text-black p-2 rounded-lg"
+          type="text"
+          placeholder="Search..."
+        />
         <Link href="/about" className="hover: text-gray-300">
           About
         </Link>
