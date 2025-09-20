@@ -22,6 +22,9 @@ function Navbar() {
         <Link href="/dashboard" className="hover: text-gray-300">
           Dashboard
         </Link>
+        <Link href="/gallery" className="hover: text-gray-300">
+          Gallery
+        </Link>
         <Link href="/login" className="hover: text-gray-300">
           Login
         </Link>
